@@ -1,0 +1,93 @@
+@media (min-width: 768px) {
+    /* Entire page */
+
+    .container {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+    }
+
+    /* Profile photo and location*/
+    .profile-image-container {
+    }
+
+    .profile-image-container img {
+        width: 156px;
+        height: 156px;
+    }
+
+    /* Creator name and location */
+
+    .gal-creator {
+    }
+
+    .name {
+        font-size: 24px;
+    }
+
+    .location {
+        margin-top: 8px;
+        font-size: 14px;
+    }
+
+    /* Creator Stats */
+
+    .stats-container {
+        margin-left: 0px;
+    }
+
+    .post,
+    .followers,
+    .following {
+    }
+
+    /* Images */
+
+    .photos-container {
+        width: 990px;
+    }
+
+    .photos-container img {
+    }
+
+    /* Plant on Table */
+
+    .img-1 {
+        width: 299px;
+        height: 299px;
+    }
+
+    /* Couch */
+    .img-2 {
+        width: 629px;
+        height: 299px;
+    }
+
+    /* Tub */
+    .img-3 {
+        width: 627px;
+        height: 299px;
+    }
+
+    /* End Table and Seating */
+    .img-4 {
+        width: 299px;
+        height: 299px;
+    }
+
+    /* Plant Leaves */
+    .img-5 {
+        width: 299px;
+        height: 299px;
+    }
+
+    /* Lamp */
+    .img-6 {
+        float: left;
+        width: 297px;
+        height: 630px;
+    }
+
+    footer {
+    }
+}
