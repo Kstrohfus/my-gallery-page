@@ -8,8 +8,6 @@
     }
 
     /* Profile photo and location*/
-    .profile-image-container {
-    }
 
     .profile-image-container img {
         width: 156px;
@@ -17,9 +15,6 @@
     }
 
     /* Creator name and location */
-
-    .gal-creator {
-    }
 
     .name {
         font-size: 24px;
@@ -36,18 +31,10 @@
         margin-left: 0px;
     }
 
-    .post,
-    .followers,
-    .following {
-    }
-
     /* Images */
 
     .photos-container {
         width: 990px;
-    }
-
-    .photos-container img {
     }
 
     /* Plant on Table */
@@ -71,12 +58,18 @@
 
     /* End Table and Seating */
     .img-4 {
+        position: absolute;
+        top: 970px;
+        left: 260px;
         width: 299px;
         height: 299px;
     }
 
     /* Plant Leaves */
     .img-5 {
+        position: absolute;
+        top: 970px;
+        left: 590px;
         width: 299px;
         height: 299px;
     }
