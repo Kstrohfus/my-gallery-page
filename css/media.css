@@ -3,10 +3,11 @@
 
     .container {
         display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-content: center;
         justify-content: space-around;
-        width: 1200px;
-        height: 100%;
+        width: 100vw;
     }
 
     /* Profile photo and location*/
@@ -30,15 +31,31 @@
     /* Creator Stats */
 
     .stats-container {
-        margin-left: 0px;
+        width: 400px;
+    }
+
+    .post,
+    .followers,
+    .following {
+        font-size: 18px;
+        width: 100px;
+        height: 67px;
+    }
+
+    .numbers {
+        font-size: 14px;
     }
 
     /* Images */
 
     .photos-container {
-        gap: 5px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         position: relative;
-        width: 990px;
+        justify-content: center;
+        width: 1200px;
+        height: 900px;
     }
 
     /* Plant on Table */
@@ -58,31 +75,27 @@
     .img-3 {
         width: 627px;
         height: 299px;
-        padding-right: 20px;
     }
 
     /* End Table and Seating */
     .img-4 {
-        position: absolute;
+        /* position: absolute;
         top: 630px;
-        left: 325px;
+        left: 325px; */
         width: 299px;
         height: 299px;
     }
 
     /* Plant Leaves */
+
     .img-5 {
-        position: absolute;
-        top: 630px;
-        left: 0px;
         width: 299px;
         height: 299px;
     }
 
     /* Lamp */
     .img-6 {
-        float: left;
-        display: block;
+        /* float: right; */
         width: 297px;
         height: 630px;
     }
